@@ -9,7 +9,7 @@ import Messages from '../Messages/Messages';
 import InfoBar from '../InfoBar/InfoBar';
 import Input from '../Input/Input';
 
-const ENDPOINT = "http://localhost:3002";
+const ENDPOINT = "https://menna-chat-backend.herokuapp.com/" || "http://localhost:3002";
 let socket;
 
 const Chat = ({ location }) => {
